@@ -11,6 +11,10 @@ Foi a primeira vez que lidei com o back-end e banco de dados, então foi bem des
 O banco de dados está em '/db/userdata.db'.<br>
 Os arquivos estáticos, na pasta '/public'
 
+//Executar o aplicativo
+Para executar o aplicativo é preciso instalar os módulos presentes no arquivo package.json
+executando >npm install <módulo>
+
 //Iniciar o servidor<br>
 Para iniciar o servidor à partir do node -> >node server.js
 

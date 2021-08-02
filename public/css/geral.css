@@ -1,0 +1,409 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+ /*font-family: 'Delius', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+ /*font-family: 'Montserrat', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  	
+	
+article, aside, footer, header, nav, section, figure {display:block;}
+
+
+* {box-sizing: border-box;}   /*todos os elementos*/	
+
+
+body *{color:rgba(0,0,0,1);}
+
+
+button {cursor: pointer;}
+
+p {font-family:'Flamenco', cursive; color:black;}
+
+p::selection {
+  color:rgba(255,255,255,1);
+  background:rgba(102,204,204,1);
+}
+
+.p1 {
+	font-family:'Goudy+Bookletter+1911', sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:black;
+}
+
+.p2 {
+	font-family:'Flamenco', cursive; color:black;
+	font-size:20px;
+}
+
+.p3 {
+	font-family:'Calistoga', sans-serif;
+}
+
+.p4 {
+	font-family:'Goudy+Bookletter+1911', sans-serif;
+	font-size:12px;
+}
+	
+img {
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+a {text-decoration: none;}
+
+.a_block{display:block;}
+
+h1 {font-family:'Lora', cursive;
+	font-weight:100;
+	font-size:40px;}
+	
+h2 {font-family:'Flamenco', cursive;
+	font-weight:100;
+	font-size:25px;}
+	
+.h2 {font-family:'Flamenco', cursive;
+	font-weight:100;
+	font-size:25px;}	
+	
+.h21 {
+	font-family:'Calistoga', sans-serif; /*'Cinzel+Decorative', sans-serif*/
+	color:rgba(204,51,102,0.5);
+}
+
+h1::selection {
+  color:rgba(255,255,255,1);
+  background:rgba(255,153,153,1);
+}
+
+div {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input {
+	outline:none;
+	border:none;
+	background-color:rgba(229,239,235,1);
+	border-radius: 10px;
+}
+
+
+/*margin
+top right bottom left
+0 0 0 0
+*/
+
+/*---colunas responsivas---
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+*/
+
+
+/*---colunas responsivas---*/
+.col8 	{width: 8.33%;}     
+.col16 {width: 16.66%;}
+.col25 	{width: 25%;}
+.col30 {width:30%;}
+.col33 	{width: 33.33%;} 
+.col41 {width: 41.66%;}
+.col50 	{width: 50%;}
+.col58_ {width: 58.33%;}
+.col66 {width: 66.66%;}
+.col75 	{width: 75%;}
+.col83_ {width: 83.33%;}
+.col91_ {width: 91.66%;}
+.col100 {width: 100%;}
+.colauto {width:auto;}
+
+/*---linhas---*/
+.row20 	{height: 20%;}
+.row300 {height: 300px;}
+.row50 	{height: 50%;}
+.row60 	{height: 60%;}
+.row80 	{height: 80%;}
+.col30 {width:30%;}
+.col33 	{width: 33.33%;} 
+.col41 {width: 41.66%;}
+.col50 	{width: 50%;}
+.col58_ {width: 58.33%;}
+.col66_ {width: 66.66%;}
+.col75 	{width: 75%;}
+.col83_ {width: 83.33%;}
+.col91_ {width: 91.66%;}
+.col100 {width: 100%;}
+.colauto {width:auto;}
+
+
+/*RGBA COLOR VALUES
+Serve pra aplicar opacidade
+ background: rgba(0, 128, 0, 0.3)
+ O último número é o alpha de opacidade
+ Ex: opacidade 30%
+ */
+ 
+ /*CORES
+Verdinho claro:
+#CF9
+Rosinha claro:
+#F69
+Verde claro botão:
+rgba(0,204,102,1)
+Vermelho salmão:
+rgba(204,51,102,1)
+Sombra rosa:
+rgba(204,51,102,0.3)
+Azul claro:
+rgba(102,204,255,0.5)
+Azul claro 2:
+background-color:rgba(51,204,204,0.3);*/
+
+
+/*exemplo de ANIMAÇÃO*/
+/*
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+*/
+
+/*Classes de posição*/
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*Classes de função*/
+
+.flexcontainer {
+			display:flex;
+			flex-wrap:wrap;	
+			justify-content: center;
+			align-items: center;
+			/*flex-basis: calc(4.5ch / 0.7);*/
+}
+		
+		
+/*Classes de estilo*/
+
+
+.verde_agua {
+	background-color:rgba(102,204,204,0.3);
+	border-radius: 5px;
+}
+
+.verde_azulado {
+	background-color:rgba(102,204,204,0.5);
+	border-radius: 5px;
+}
+
+.verde_claro {
+	background-color:rgba(102,204,102,0.2);
+	border-radius: 5px;
+}
+
+
+
+.gray_green {
+	background-color:rgba(202,208,202,0.2);
+	border-radius: 10px;
+}
+
+.border_hover{
+	border:1px solid transparent;
+	transition:linear 0.2s;
+}
+
+
+.border_hover:hover {
+	background-color:rgba(255,255,255,1);
+	border:1px solid rgba(102,204,204,0.5);
+	color:rgba(64,128,128,1);
+}
+
+		
+.papel {
+	font-family: 'Montserrat', sans-serif;
+	max-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(255,51,51,0.4);
+	max-height:auto;
+	margin-top:10px;
+	border-color:rgba(102,102,102,1);
+	box-shadow: 30px 20px 20px rgba(153,0,0,0.3);
+}
+
+
+.card-wht {
+	border:1px solid rgba(153,153,153,1);
+	box-shadow: 30px 20px 20px rgba(153,0,0,0.3);
+	background-color:rgba(255,255,255,1);	
+}
+
+.input-pink-square {
+	border:1px solid rgba(153,153,153,1);
+	border-radius:5px;
+	box-shadow: 0px 0px 20px rgba(153,0,0,0.3);
+	background-color:rgba(255,255,255,1);	
+}
+
+.gray-rounded {
+	border-radius:30px;
+	box-shadow: 2px 2px 5px 0px rgba(153,153,153,1);
+	background-color:rgba(255,255,255,1);	
+}
+
+.rosa-suave {
+	background-color:rgba(204,153,255,0.2);
+	border-radius:10px;
+}
+	
+.shdw-wht {
+	background-color:rgba(255,255,255,1);
+	-webkit-box-shadow: 2px 2px 26px #D3D3D3;
+	-moz-box-shadow: 2px 2px 26px #D3D3D3;
+	box-shadow: 2px 2px 26px #D3D3D3;
+}
+
+.shdw-whtopp {
+	background-color:rgba(255,255,255,0.6);
+	-webkit-box-shadow: 2px 2px 26px #D3D3D3;
+	-moz-box-shadow: 2px 2px 26px #D3D3D3;
+	box-shadow: 2px 2px 26px #D3D3D3;
+}
+
+.fotocor {
+	background-image:url(../imagens%20fundo/blur2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.borda_azul {
+	border:solid 3px rgba(102,102,153,0.2);
+	border-radius:5px;
+}
+
+.descrição {
+		background-color:#CF9;
+		/*background-color:rgba(51,204,204,0.3);*/
+		max-width:996px;
+		min-height:80px;
+		max-height:auto;
+		box-shadow: 5px 5px 0px #999;		
+}	
+
+
+/*html e body*/		
+
+html{
+	/*ancoragem suave*/
+  	scroll-behavior: smooth;
+ 		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+  		box-sizing: inherit;
+	}
+
+body {
+	background-color:#FFF;
+	/*background-image:url(../imagens%20fundo/blur2.jpg);*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:rgba(0,0,0,1);
+	/*para colar o margin topo, colocar o margin top com algum valor aqui no body*/
+	margin-top:10px;
+	/*fixa a localização do site*/
+	background-attachment:fixed;
+}	
+	
+
+	
+	
+		/*-----------------Parte 1: Apresentação-------------*/
+.principal {
+	max-width:1600px;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+	/*border:dashed;
+	border-color:#099;
+	border-width:thin;*/
+}
+
+
+.total {
+	margin-top:10px;
+	max-width:1050px;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+
+		
+		/*-------------Cria overlay---------------*/		
+			
+	#overlay_input{
+				
+				position: absolute; /* Sit on top of the page content */
+				display: none; /* Hidden by default */
+				width: 100%; /* Full width (cover the whole page) */
+				height: 100%; /* Full height (cover the whole page) */
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+				cursor: pointer; /* Add a pointer on hover */
+				blur: 5px;
+				z-index:1;
+			}	
+		
+			
+			/*outline button*/
+			/*
+			#sndbtn:active {
+				background-color:rgba(204,51,102,1);
+				outline: 5px solid rgba(255,153,153,1);
+				-webkit-box-shadow: 0px 0px 0px #000000;
+				-moz-box-shadow: 0px 0px 0px #000000;
+				box-shadow: 0px 0px 0px #000000;
+				min-height:45px;
+				min-width:65px;
+			}*/
+
+	
+		
+@media only screen and (max-width: 900px) {
+	._oc_900 {display:none;}
+	._resize_900 {
+		width:100%;
+		margin-left:4%;
+		margin-right:4%;
+	}
+	.meio_container {
+		background-color:rgba(255,255,255,0.8);
+		padding:10px;
+	}
+}

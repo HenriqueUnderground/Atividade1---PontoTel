@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC>
+<html lang="pt-br">
+	<!--HEAD-->
+    <head>
+		<meta charset="utf-8">
+		<meta name="author" content="Tande/Will">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+	<title>Atividade 1</title>
+    
+		<!--CSS linkado-->
+        <link href="css/geral.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/componentes.css" rel="stylesheet" type="text/css"/> 
+        
+	</head>
+
+    
+    <!--BODY-->
+    <body>
+    <!-------------		HEADER   --------------->
+      <header class="principal">
+      	<div class="flexcontainer">
+          <div class="col33">
+          </div>
+          <div class="col33">
+              <h1>Olá Visitante</h1>
+          </div>
+          
+          <div class="col33">
+          </div>
+        </div>
+      </header>
+        	
+    <!---------------- MAIN  ---------------->       
+      <main class="principal">
+      
+        <div id="cad1" class="teste1 shdw-wht">	
+          <h2>Cadastre seus dados</h2>
+          <form id="form1" action="/add/user" onsubmit="return validateForm2('form1')" method="post">
+           <div id="cad2" class="flexcontainer">
+          	<input id="nome" type="text" placeholder="Nome" name="nome" required>
+            <input id="email" type="e-mail" placeholder="E-mail" name="email" required>
+            <input id="pais" type="text" placeholder="País" name="pais" required>
+            <input id="estado" type="text" placeholder="Estado" name="estado" required>
+            <input id="municipio" type="text" placeholder="Município" name="municipio" required>
+            <input id="cep" type="text" placeholder="CEP" name="cep" required>
+            <input id="rua" type="text" placeholder="Rua" name="rua" required>
+            <input id="numero" type="text" placeholder="Nº" name="numero" required>
+            <input id="complemento" type="text" placeholder="Complemento" name="complemento" required>
+            <input id="cpf" type="text" placeholder="CPF" name="cpf" required>
+            <input id="pis" type="text" placeholder="PIS" name="pis" required>
+            <input id="senha" type="password" placeholder="senha" name="senha" required>
+            <input id="confsenha" type="password" placeholder="confirme a senha" name="confsenha" required>
+           </div>
+            <button id="button1" class="btn_container p1 verde_azulado hover">Cadastrar</button>
+            <a class="a_container verde_agua p1 border_hover" href="login.html" target="_self">
+          Voltar</a>
+           
+          </form>
+        </div>
+       
+        
+      </main>      
+
+      <!--RODAPÉ-->
+      <footer class="center">
+      </footer>        
+             				
+    </body>
+  
+    <!--JS linkado-->
+    <script type="text/javascript" src="js/Atividade1.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+ 
+   
+    </div>
+ </div>
+  
+</html>

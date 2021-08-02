@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	/*background-image:url(../imagens/);*/
+	background-position: 40%;
+}
+
+body *{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+
+/*------------HEADER----------*/
+header h1 {
+	margin-top:30px;
+	margin-bottom:40px;
+}
+
+
+#log {
+	margin-top:20px;
+}
+
+.test {
+	background-color:rgba(0,153,102,1);
+}
+
+.test a{
+	text-align:left;
+}
+
+
+#logotipo{
+	margin:0;
+}
+	
+	#logotipo img{
+		margin:0;
+	}
+
+
+
+/*------------MEIO----------*/
+
+#meio {
+	padding:10px;
+}
+
+
+#login {
+	width:70%;
+	max-width:500px;
+	min-width:200px;
+	padding-top:5px;
+	padding-bottom:1px;
+	margin-bottom:10px;
+}
+
+
+label {
+	text-align:left;
+}
+
+input { 
+    text-align:left;
+	width:200px;
+	height:40px;
+	margin-bottom:10px;
+	padding-left:10px;
+	transition:linear 0.1s;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input:focus { 
+    box-shadow:  0 0 2px 2px rgba(102,204,204,1);
+}
+
+
+#button1 {
+	margin-bottom: 10px;
+}
+
+
+.cont_line {
+	margin-bottom:15px;
+}
+
+.line{
+	display:inline-block;
+	background-color:rgba(153,153,153,0.5);
+	width:20px;
+	height:1px;
+	margin-bottom: 5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#ou {
+	display:inline;
+}
+
+
+input::placeholder{
+	text-align:center;
+	margin-right:10px;
+}
+
+
+/*-----Cadastro-----*/
+#cad1 {
+	max-width:960px;
+	min-width:200px;
+	padding-top:5px;
+	padding-bottom:1px;
+	margin-bottom:10px;
+}
+
+#cad1 input {
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+}
+
+#cad2 {
+	padding:2%;
+}
+
+/*
+#cad2 input[name="nome"]{
+	flex-grow:1;
+	width:50%;
+	min-width:250px;
+}
+
+#cad2 input[name="e-mail"]{
+	flex-grow:2;
+	max-width:500px;
+	min-width:250px;
+}
+
+#cad2 input[name="pais"] {
+	flex-grow:2;
+	min-width:200px;
+}
+
+#cad2 input[name="estado"]{
+	flex-grow:2;
+	min-width:150px;
+}
+
+#cad2 input[name="municipio"] {
+	flex-grow:5;
+	min-width:280px;
+}
+
+#cad2 input[name="cep"]{
+	flex-grow:1;
+	max-width:150px;
+}
+
+#cad2 input[name="cpf"] {
+	flex-grow:5;
+	min-width:150px;
+}
+
+#cad2 input[name="rua"]{
+	width:45%;
+	flex-grow:8;
+	min-width:250px;
+}
+
+#cad2 input[name="complemento"]{
+	flex-grow:8;
+}
+
+#cad2 input[name="numero"]{
+	width:50px;
+}
+
+#cad2 input[name="senha"]{
+	width:250px;
+}
+
+#cad2 input[name="confsenha"]{
+	width:250px;
+}
+*/
+
+@media only screen and (max-width: 900px) {
+	body {
+	background-position: 0;
+	}
+	.form_container {
+		width:100%;
+	}
+}
+
+
+/*-------Editar cadastro----------*/
+.edit1 {
+	max-width:960px;
+	min-width:200px;
+	padding-top:5px;
+	padding-bottom:1px;
+	margin-bottom:10px;
+}
+
+.edit1 input{
+	/*display:none;*/
+}
+
+
+.edit2 div {
+	flex-direction:column;
+	flex-grow:1;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.edit2 input {
+	width:100%;
+}
+
+.edit2 label {
+	margin-bottom:10px;
+	align-self:flex-start;
+}
+
+
+/*------Divs Campos-------*/
+#nome {
+	flex-grow:1;
+	width:50%;
+	min-width:250px;
+}
+
+#email {
+	flex-grow:2;
+	max-width:400px;
+	min-width:150px;
+}
+
+#pais {
+	flex-grow:3;
+	min-width:200px;
+}
+
+#estado {
+	flex-grow:1;
+	min-width:150px;
+}
+
+#municipio{
+	flex-grow:5;
+	min-width:280px;
+}
+
+#cep{
+	flex-grow:3;
+	min-width:150px;
+}
+
+#cpf {
+	flex-grow:5;
+	min-width:150px;
+}
+
+#pis {
+	flex-grow:5;
+	min-width:100px;
+}
+
+#rua{
+	width:35%;
+	flex-grow:8;
+	min-width:250px;
+}
+
+#complemento{
+	flex-grow:8;
+	max-width:250;
+}
+
+#numero{
+	width:50px;
+	flex-grow:8;
+}
+
+#senha{
+	width:200px;
+	flex-grow:8;
+}
+
+#confsenha{
+	width:200px;
+	flex-grow:8;
+}
+
+
+
+/*------------FOOTER----------*/

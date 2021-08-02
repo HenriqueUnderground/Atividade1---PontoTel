@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC>
+<html lang="pt-br">
+	<!--HEAD-->
+    <head>
+		<meta charset="utf-8">
+		<meta name="author" content="Tande/Will">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+	<title>Atividade 1</title>
+    
+		<!--CSS linkado-->
+        <link href="css/geral.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/componentes.css" rel="stylesheet" type="text/css"/> 
+        
+	</head>
+
+    
+    <!--BODY-->
+    <body>
+    
+    <!-------------		HEADER   --------------->
+      <header class="principal">
+      	<div class="flexcontainer">
+          <div class="col33">
+          </div>
+          <div class="col33">
+              <h1 id="cadastrado"></h1>
+          </div>
+          
+          <div class="col33">
+          </div>
+        </div>
+      </header>
+        	
+    <!---------------- MAIN  ---------------->       
+      <main class="principal">
+		
+        <div id="cad1" class="edit1 shdw-wht">	
+          <h2>Meu cadastro</h2>
+          <form action="/edit" method="post">
+           <div id="cad2" class="edit2 flexcontainer">
+            <div id="nome" class="flexcontainer">
+              <label>Nome:</label>
+              <input id="inome" type="text" placeholder="Nome" name="nome">
+            </div>
+            <div id="email" class="flexcontainer">
+              <label>E-mail:</label>
+              <input id="iemail" type="email" placeholder="E-mail" name="email">
+            </div>
+            <div id="pais" class="flexcontainer">
+              <label>País:</label>
+              <input id="ipais" type="text" placeholder="País" name="pais">
+            </div>
+            <div id="estado" class="flexcontainer">
+              <label>Estado:</label>
+              <input id="iestado" type="text" placeholder="Estado" name="estado">
+            </div>
+            <div id="municipio" class="flexcontainer">
+              <label>Municipio:</label>
+              <input id="imunicipio" type="text" placeholder="Municipio" name="municipio">
+            </div>
+            <div id="cep" class="flexcontainer">
+              <label>CEP:</label>
+              <input id="icep" type="text" placeholder="CEP" name="cep">
+            </div>
+            <div id="rua" class="flexcontainer">
+              <label>Rua:</label>
+              <input id="irua" type="text" placeholder="Rua" name="rua">
+            </div>
+            <div id="numero" class="flexcontainer">
+              <label>Nº:</label>
+              <input id="inumero" type="text" placeholder="Nº" name="numero">
+            </div>
+            <div id="complemento" class="flexcontainer">
+              <label>Complemento:</label>
+              <input id="icomplemento" type="text" placeholder="Complemento" name="complemento">
+            </div>
+            <div id="cpf" class="flexcontainer">
+              <label>CPF:</label>
+              <input id="icpf" type="text" placeholder="CPF" name="cpf">
+            </div>
+            <div id="cpf" class="flexcontainer">
+              <label>PIS:</label>
+              <input id="ipis" type="text" placeholder="pis" name="pis">
+            </div>
+            <div id="senha" class="flexcontainer">
+              <label>senha:</label>
+              <input id="isenha" type="password" placeholder="senha" name="senha" required>
+            </div>
+            <div id="confsenha" class="flexcontainer">
+              <label>confirme a senha</label>
+              <input id="iconfsenha" type="password" placeholder="confirme a senha" name="confsenha" required>
+            </div>
+            
+           </div>
+            <button id="button1" class="btn_container p1 verde_azulado hover">Salvar</button>
+            <button id="button1" type="button" onclick="window.location.href='/deletar'" class="btn_container p1 verde_azulado hover">Excluir</button>
+            <a class="a_container verde_agua p1 border_hover" href="/" target="_self">
+          Voltar</a>
+           
+          </form>
+        </div>
+       
+        
+      </main>      
+
+      <!--RODAPÉ-->
+      <footer class="center">
+      </footer>        
+             				
+    </body>
+  
+    <!--JS linkado-->
+    <script type="text/javascript" src="js/Atividade1.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+ 
+   
+    </div>
+ </div>
+  
+</html>

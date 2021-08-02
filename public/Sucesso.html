@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC>
+<html lang="pt-br">
+	<!--HEAD-->
+    <head>
+		<meta charset="utf-8">
+		<meta name="author" content="Tande/Will">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+	<title>Atividade 1</title>
+    
+		<!--CSS linkado-->
+        <link href="css/geral.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/componentes.css" rel="stylesheet" type="text/css"/> 
+        
+	</head>
+
+    
+    <!--BODY-->
+    <body>
+    
+    <!-------------		HEADER   --------------->
+      <header class="principal">
+          <h1>Olá Visitante</h1>
+      </header>
+        	
+    <!---------------- MAIN  ---------------->       
+      <main>
+		<!--"    -->
+        <div id="login" class="shdw-wht">	
+          <h2>Entre na sua conta</h2>
+          <form action="/login" name="flogin" onsubmit="return validarForm()" method="post">
+            <input id="email" type="text" placeholder="E-mail, CPF ou PIS" name="email"required></input>
+            <input id="senha1" type="password" placeholder="senha" name="senha"required></input>
+            <button id="button1" class="btn_container p1 verde_azulado hover">Entrar</button>
+          </form>
+        </div>
+        
+        <div class="cont_line">
+       		<span class="line"></span><h2 id="ou">ou</h2><span class="line"></span>
+        </div>
+        
+        <a class="a_container verde_agua p1 border_hover" href="cadastrar.html" target="_self">
+        Cadastre-se</a>
+        
+      </main>  
+      <!--<button id="button1" onclick="loggin()" class="btn_container p1 verde_azulado hover">Entrar</button>-->   
+
+      <!--RODAPÉ-->
+      <footer class="center">
+      </footer>        
+             				
+    </body>
+  
+    <!--JS linkado-->
+    <script type="text/javascript" src="js/Atividade1.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+ 
+   
+    </div>
+ </div>
+  
+</html>
